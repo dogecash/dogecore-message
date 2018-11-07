@@ -1,19 +1,19 @@
 {
-  "name": "bitcore-message",
-  "main": "./bitcore-message.min.js",
-  "version": "1.0.3",
-  "homepage": "https://github.com/bitpay/bitcore-message",
+  "name": "acmcore-message",
+  "main": "./acmcore-message.min.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Actinium-project/acmcore-message",
   "authors": [
     "BitPay"
   ],
-  "description": "Bitcoin Message Verification and Signing for Bitcore",
+  "description": "Actinium Message Verification and Signing for AcmCore",
   "moduleType": [
     "globals"
   ],
   "keywords": [
-    "bitcoin",
-    "bitcore",
-    "btc",
+    "actinium",
+    "acmcore",
+    "acm",
     "satoshi",
     "message",
     "signing"

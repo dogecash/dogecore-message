@@ -1,30 +1,30 @@
 <img src="http://bitcore.io/css/images/module-message.png" alt="bitcore message" height="35">
-# Actinium Message Verification and Signing for AcmCore
+# Actinium Message Verification and Signing for DogeCore
 
 
 [![NPM Package](https://img.shields.io/npm/v/bitcore-message.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-message)
 [![Build Status](https://img.shields.io/travis/bitpay/bitcore-message.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcore-message)
 [![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-message.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcore-message?branch=master)
 
-acmcore-message adds support for verifying and signing actinium messages in [Node.js](http://nodejs.org/) and web browsers.
+dogecore-message adds support for verifying and signing actinium messages in [Node.js](http://nodejs.org/) and web browsers.
 
 See [the main bitcore repo](https://github.com/bitpay/bitcore) for more information.
 
 ## Getting Started
 
 ```sh
-npm install acmcore-message
+npm install dogecore-message
 ```
 
 ```sh
-bower install acmcore-message
+bower install dogecore-message
 ```
 
 To sign a message:
 
 ```javascript
-var bitcore = require('acmcore-lib');
-var Message = require('acmcore-message');
+var bitcore = require('dogecore-lib');
+var Message = require('dogecore-message');
 
 var privateKey = bitcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
 var signature = Message('hello, world').sign(privateKey);

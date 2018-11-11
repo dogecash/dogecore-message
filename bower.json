@@ -1,19 +1,19 @@
 {
-  "name": "acmcore-message",
-  "main": "./acmcore-message.min.js",
+  "name": "dogecore-message",
+  "main": "./dogecore-message.min.js",
   "version": "1.0.0",
-  "homepage": "https://github.com/Actinium-project/acmcore-message",
+  "homepage": "https://github.com/dogecash/dogecore-message",
   "authors": [
     "BitPay"
   ],
-  "description": "Actinium Message Verification and Signing for AcmCore",
+  "description": "Actinium Message Verification and Signing for DogeCore",
   "moduleType": [
     "globals"
   ],
   "keywords": [
     "actinium",
-    "acmcore",
-    "acm",
+    "dogecore",
+    "dogec",
     "satoshi",
     "message",
     "signing"

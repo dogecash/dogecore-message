@@ -3,8 +3,8 @@ coverage
 node_modules
 
 npm-debug.log
-acmcore-message.js
-acmcore-message.min.js
+dogecore-message.js
+dogecore-message.min.js
 tests.js
 
 report
